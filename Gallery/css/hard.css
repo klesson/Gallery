@@ -1,6 +1,8 @@
 .img-box {
     column-count: 4;  
     column-gap: 0;  
+    max-width: 1400px;
+    margin: auto;
 }
 
 .image {

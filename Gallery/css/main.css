@@ -8,6 +8,7 @@
 
 body {
     background-color: #eee;    
+    font-family: 'Mali', cursive;
 }
     
 .main {    
@@ -24,7 +25,21 @@ body {
     max-height: 256px;    
     max-width: 490px;    
     background-color: dodgerblue;    
-    width: calc(50% - 10px);    
+    width: calc(50vw - 10px);    
     height: calc(95vw / 2 / 16 * 9);    
-    margin: 5px;    
+    margin: 5px;   
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.heading {
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.img_link {
+    display: block;
 }
