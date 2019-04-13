@@ -10,3 +10,22 @@
     display: block;
     margin: 3px;    
 }
+
+.image-wrapper {
+    display: block;
+    opacity: 0.8;
+    transition: 0.4s;
+    filter: blur(1px);
+}
+
+.image-wrapper + .image-wrapper {
+    margin: 3px 0;
+}
+
+.image-wrapper:hover {
+    opacity: 1;
+    filter: sepia(1.3);
+    /*filter: brightness(1.7);*/
+    /*filter: grayscale(10);*/
+    /*filter: hue-rotate(45deg);*/
+}
